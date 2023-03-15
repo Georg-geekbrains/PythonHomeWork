@@ -8,3 +8,5 @@ i = 0
 for i in range(1,N+1):
     st = 2**i
     print(st, end= ' ' )
+
+    
