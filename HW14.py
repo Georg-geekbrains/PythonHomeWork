@@ -4,8 +4,7 @@
 #10 -> 1 2 4 8
 
 N = int(input('Введите число: '))
-i = 0
-for i in range(1,N+1):
+for i in range(0,N+1):
     st = 2**i
     print(st, end= ' ' )
 
