@@ -41,12 +41,12 @@ ru = {'А': 1, 'В': 1, 'Е': 1, 'И': 1, 'Н': 1, 'О': 1, 'Р': 1, 'С': 1, '�
 word = input('Введите слово: ').upper()
 if word.isalpha():
     if word[0] in en:
-        values = en
+        dictionary = en
     else:
-        values = ru
+        dictionary = ru
      
 score = 0
-for c in word:
-    score += values[c]
+for letter in word:
+    score += dictionary[letter]
 
 print('Строимость слова', word, 'равна', score)
