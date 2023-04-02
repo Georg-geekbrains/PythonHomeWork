@@ -36,6 +36,6 @@ def main():
                 print('Парам пам-пам')
     else:
         print('Пам парам')
-    print(count_syllables(vini_string))
+    
 main()
 
